@@ -4,10 +4,24 @@
   
 }
 
+p {
+  color: black;
+}
+
+#madlib {
+  text-transform: uppercase;
+  border: solid 1px black;
+  width: 1050px;
+  align-content: center;
+  background-color: #e17055;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
   width: 1000px;
   font-weight: bold;
-  background-color: lightblue;
+  background-color: #fab1a0;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -15,32 +29,40 @@ body {
 
 fieldset {
   align-content: center;
-  background-color: lightblue;
-  width: 500px;
+  background-color: #e17055;
+  width: 1000px;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
   font-size: 20px;
   margin-bottom: 50px;
+  border: solid 1px black;
 }
 
 label {
-  border: 5px;
+  border: 3px;
+}
+
+input {
+  width: 250px;
 }
 
 .legend {
-  background-color: lightblue;
+  background-color: white;
   text-transform: uppercase;
   align-content: center;
-  border: solid 5px darkblue;
+  font-size: 28px;
+  border: solid 1px black;
 }
 
 
 .instructions {
-  border: solid 5px darkblue;
+  border: solid 1px black;
   margin-bottom: 50px;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 22px;
+  width: 1050px;
+  background-color: #e17055;
 }
 
 span {
@@ -50,17 +72,19 @@ span {
 .submit {
   align-content: center;
   padding: 20px;
-  font-size: 28px;
+  font-size: 26px;
   margin-bottom: 50px;
   color: darkblue;
-  border: solid 5px darkblue;
-  background-color: white;
-  
+  border: solid 1px black;
+  background-color: #e17055;
+  width: 1000px;
 }
 
 .button {
-      border: solid 5px darkblue;
+      border: solid 3px black;
       padding: 20px 50px;
+      text-transform: uppercase;
+      font-size: 22px;
 }
 
 #storyResults {
