@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Make Your Own Madlib</title>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <header>
+    <h1>Make Your Own Madlib</h1>
+  </header>
+  <body>
+    <article class="instructions">
+      <h2>Instructions</h2>
+      <p>
+        Fill in the blanks with the indicated word types to tell a funny story.
+      </p>
+    </article>
+
+    <article>
+      <fieldset>
+        <legend class="legend">Your Words</legend>
+
+        <label
+          >Adjective: <br />
+          <input id="adj1Input"/></label
+        ><br /><br />
+
+        <label
+          >Adjective: <br />
+          <input id="adj2Input"/></label
+        ><br /><br />
+
+        <label
+          >Type of Bird: <br />
+          <input id="birdInput"/></label
+        ><br /><br />
+
+        <label
+          >Room In A House: <br />
+          <input id="roomInput"/></label
+        ><br /><br />
+
+        <label
+          >Verb (past tense): <br />
+          <input id="verb1Input"/></label
+        ><br /><br />
+
+        <label
+          >Verb: <br />
+          <input id="verb2Input"/></label
+        ><br /><br />
+
+        <label
+          >Relative's Name: <br />
+          <input id="relativeInput"/></label
+        ><br /><br />
+
+        <label
+          >Noun: <br />
+          <input id="nounInput"/></label
+        ><br /><br />
+
+        <label
+          >A Liquid: <br />
+          <input id="liquidInput"/></label
+        ><br /><br />
+
+        <label
+          >Verb ending in "ing": <br />
+          <input id="verbing1Input"/></label
+        ><br /><br />
+
+        <label
+          >Part Of The Body (plural): <br />
+          <input id="bodyInput"/></label
+        ><br /><br />
+
+        <label
+          >Plural Noun: <br />
+          <input id="nounpluralInput"/></label
+        ><br /><br />
+
+        <label
+          >Verb ending in "ing": <br />
+          <input id="verbing2Input"/></label
+        ><br /><br />
+
+        <label
+          >Noun: <br />
+          <input id="noun2Input"/></label
+        ><br /><br />
+      </fieldset>
+
+      <div class="submit">
+        <p>Click Submit and create your funny story!</p>
+        <button class="button">Submit</button>
+      </div>
+    </article>
+
+    <article>
+      <p id="storyResults">
+        It was a <span id="adj1"></span>, cold November day. I woke up to the
+        <span id="adj2"></span> smell of <span id="bird"></span> roasting in the
+        <span id="room"></span> downstairs. I <span id="verb1"></span> down the
+        stairs to see if I could help <span id="verb2"></span> the dinner. My
+        mom said, "See if <span id="relative"></span> needs a fresh
+        <span id="noun"></span>." So I carried a tray of glasses full of
+        <span id="liquid"></span> into the <span id="verbing1"></span> room.
+        When I got there, I could believe my <span id="body"></span>! There were
+        <span id="nounplural"></span> <span id="verbing2"></span> on the
+        <span id="noun2"></span>!
+      </p>
+    </article>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
